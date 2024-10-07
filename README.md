@@ -38,14 +38,9 @@ No QBank, utilizamos o Modelo Entidade-Relacionamento (MER) de forma padronizada
 
 SQL (Structured Query Language) é uma linguagem de programação projetada para gerenciar e manipular bancos de dados relacionais. Ela permite que os usuários realizem operações como consultas, inserções, atualizações e exclusões de dados. Com SQL, você pode definir estruturas de dados, controlar o acesso e garantir a integridade dos dados em um banco de dados.
 
-![scripts](https://github.com/user-attachments/assets/bd755d97-2a72-42b2-87be-eb8b5f18c1d5)
-
-## Scripts DDL
-O script SQL completo pode ser encontrado na pasta SQL do repositório, no arquivo com a extensão .sql. Este arquivo contém todas as instruções necessárias para criar a estrutura do banco de dados do QBank, incluindo tabelas para empréstimos, contas, cartões de crédito e transações. Com este script, você pode configurar rapidamente o banco de dados e iniciar o desenvolvimento ou testes da aplicação.
-
 ## Tutorial: Testando as tabelas no SQL online
 
-Neste tutorial, você aprenderá a testar as tabelas do QBank utilizando uma plataforma de SQL online. Vamos mostrar como carregar o script SQL do projeto, executar consultas básicas e verificar se as tabelas foram criadas corretamente. Este processo é ideal para validar a estrutura do banco de dados de forma rápida, sem precisar configurar um ambiente local. É uma maneira prática de garantir que o banco de dados esteja funcionando conforme o esperado antes de integrá-lo à aplicação.
+Neste tutorial, você aprenderá a testar as tabelas do QBank utilizando uma plataforma de SQL online. Vamos mostrar como carregar o script SQL do projeto e verificar se as tabelas foram criadas corretamente. Este processo é ideal para validar a estrutura do banco de dados de forma rápida, sem precisar configurar um ambiente local. É uma maneira prática de garantir que o banco de dados esteja funcionando conforme o esperado antes de integrá-lo à aplicação.
 
 # Pré-requisitos
 
@@ -63,7 +58,7 @@ Antes de começar o teste das tabelas no SQL online, é necessário criar uma co
 
 1- Copiar o Código da Tabela conta:
 
-- No repositório Git, vá até a pasta SQL e abra o arquivo .sql. Encontre o código referente à criação da tabela conta e copie-o.
+- No repositório Git, vá até a pasta "Tabelas" e abra o arquivo .sql. Encontre o código referente à criação da tabela conta e copie-o.
 
 2- Renomear a Tabela Demo para conta:
 
