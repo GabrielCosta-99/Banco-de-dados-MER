@@ -41,4 +41,21 @@ imagem das Entidades.
 ## Scripts DDL
 O script SQL completo pode ser encontrado na pasta SQL do repositório, no arquivo com a extensão .sql. Este arquivo contém todas as instruções necessárias para criar a estrutura do banco de dados do QBank, incluindo tabelas para empréstimos, contas, cartões de crédito e transações. Com este script, você pode configurar rapidamente o banco de dados e iniciar o desenvolvimento ou testes da aplicação.
 
+## Tutorial: Testando as tabelas no SQL online
+
+Neste tutorial, você aprenderá a testar as tabelas do QBank utilizando uma plataforma de SQL online. Vamos mostrar como carregar o script SQL do projeto, executar consultas básicas e verificar se as tabelas foram criadas corretamente. Este processo é ideal para validar a estrutura do banco de dados de forma rápida, sem precisar configurar um ambiente local. É uma maneira prática de garantir que o banco de dados esteja funcionando conforme o esperado antes de integrá-lo à aplicação.
+
+# Pré-requisitos
+
+Antes de começar o teste das tabelas no SQL online, é necessário criar uma conta na plataforma. Para isso, siga os passos abaixo:
+
+1- Acesse o site da plataforma de SQL online. (https://sqliteonline.com/)
+
+2- Cadastre-se utilizando seu e-mail e crie uma senha.
+
+![sqllogin](https://github.com/user-attachments/assets/a44fd5a3-16e7-4212-bed2-cdc2b5dc4439)
+
+3- Após confirmar o cadastro, faça login na plataforma para começar a usar o ambiente de testes SQL.
+
+# 
 
