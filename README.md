@@ -31,13 +31,14 @@ MER (Modelo Entidade-Relacionamento) é uma representação gráfica que ilustra
 
 No QBank, utilizamos o Modelo Entidade-Relacionamento (MER) de forma padronizada, seguindo as regras de negócios. Definimos claramente as entidades e seus relacionamentos, atribuindo chaves primárias e estrangeiras, além de especificar as cardinalidades e condições. Para implementar essas definições, utilizamos o DDL (Data Definition Language), garantindo a integridade dos dados e facilitando a manutenção e a escalabilidade da aplicação.
 
-imagem do MER
+![MER](https://github.com/user-attachments/assets/5b3a2eb1-e085-4834-9593-99c59eff04c3)
 
-SQL - Structured Query Language
+
+**SQL - Structured Query Language**
 
 SQL (Structured Query Language) é uma linguagem de programação projetada para gerenciar e manipular bancos de dados relacionais. Ela permite que os usuários realizem operações como consultas, inserções, atualizações e exclusões de dados. Com SQL, você pode definir estruturas de dados, controlar o acesso e garantir a integridade dos dados em um banco de dados.
 
-imagem das Entidades. 
+![scripts](https://github.com/user-attachments/assets/bd755d97-2a72-42b2-87be-eb8b5f18c1d5)
 
 ## Scripts DDL
 O script SQL completo pode ser encontrado na pasta SQL do repositório, no arquivo com a extensão .sql. Este arquivo contém todas as instruções necessárias para criar a estrutura do banco de dados do QBank, incluindo tabelas para empréstimos, contas, cartões de crédito e transações. Com este script, você pode configurar rapidamente o banco de dados e iniciar o desenvolvimento ou testes da aplicação.
