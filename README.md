@@ -71,16 +71,22 @@ Antes de começar o teste das tabelas no SQL online, é necessário criar uma co
 
 ![sqlrename2](https://github.com/user-attachments/assets/d6684ebb-0ba3-488c-b27d-f9a4781ceeca)
   
-- Apague todo o conteúdo da tabela "demo" e cole o código copiado da tabela conta do arquivo SQL.]
+- Apague todo o conteúdo da tabela "demo" e cole o código copiado da tabela conta do arquivo SQL.
   
 3- Executar o Script:
 
 - Após colar o código, clique no botão de execução (geralmente identificado como "Run" ou similar) para criar a tabela conta.
+- 
+  ![tabelasql3](https://github.com/user-attachments/assets/1a30789f-6482-408a-89ee-60aed603442f)
+
 - Verifique se a tabela foi criada corretamente e se todos os campos foram gerados como esperado.
   
 4- Criar Novas Tabelas:
 
 - No SQL online, clique no botão “+” (ou equivalente) para adicionar uma nova tabela.
+
+![addtablesql](https://github.com/user-attachments/assets/fa68c3c3-a1bd-458a-877b-a170f286a1f2)
+  
 - Repita o processo: renomeie a nova tabela com o próximo nome que está no script do Git, por exemplo, cartao_credito.
   
 5- Repetir o Processo para Todas as Tabelas:
