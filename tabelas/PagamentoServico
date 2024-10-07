@@ -1,1 +1,9 @@
-f
+CREATE TABLE PagamentoServico (
+    Cod_Barras VARCHAR(1) COLLATE NOCASE NOT NULL,  -- Usando NOCASE no lugar de SQL_Latin1_General_CP1_CI_AS
+    ID_Conta INTEGER NULL,
+    Servico VARCHAR(100) COLLATE NOCASE NOT NULL,  -- Também aplicando NOCASE
+    Valor_Pagamento DECIMAL(38,0) NULL,
+    Data_Pagamento DATE NOT NULL,
+    CONSTRAINT CodBarras_PagamentoServico_PK PRIMARY KEY (Cod_Barras),
+    CONSTRAINT PagamentoServico_Conta_FK FOREIGN KEY (ID_Conta) REFERENCES Conta(ID_Conta)
+);
