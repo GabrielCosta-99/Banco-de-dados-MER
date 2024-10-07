@@ -31,8 +31,7 @@ MER (Modelo Entidade-Relacionamento) é uma representação gráfica que ilustra
 
 No QBank, utilizamos o Modelo Entidade-Relacionamento (MER) de forma padronizada, seguindo as regras de negócios. Definimos claramente as entidades e seus relacionamentos, atribuindo chaves primárias e estrangeiras, além de especificar as cardinalidades e condições. Para implementar essas definições, utilizamos o DDL (Data Definition Language), garantindo a integridade dos dados e facilitando a manutenção e a escalabilidade da aplicação.
 
-![MER](https://github.com/user-attachments/assets/5b3a2eb1-e085-4834-9593-99c59eff04c3)
-
+![PHOTO-2024-10-07-18-32-20](https://github.com/user-attachments/assets/1353dcad-3b7d-42a9-a0b6-1d648097f40c)
 
 **SQL - Structured Query Language**
 
@@ -98,5 +97,10 @@ Antes de começar o teste das tabelas no SQL online, é necessário criar uma co
 7- Finalizar e Verificar:
 
 - Após criar todas as tabelas, verifique se todas elas foram criadas corretamente no SQL online, revisando os campos e relacionamentos conforme o script.
+  
+##Conclusão do Projeto QBank##
 
+O projeto QBank resultou na criação de um banco de dados robusto e escalável para gerenciar informações sobre contas bancárias, transações e usuários. A utilização do Modelo Entidade-Relacionamento (MER) permitiu uma definição clara das entidades e seus relacionamentos, assegurando a integridade dos dados.
+
+O grupo aprendeu a aplicar DDL (Data Definition Language) para criar tabelas usando SQL, além de testar suas estruturas em plataformas online. Esse processo facilitou a validação e correção de erros de forma prática, preparando o banco de dados para integração na aplicação.
 
