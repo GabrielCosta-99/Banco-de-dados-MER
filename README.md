@@ -18,7 +18,8 @@ O banco de dados do projeto QBank é projetado para ser robusto e escalável, su
 
 - Drawio.
 - SQL online.
-- DBeaver Microsoft Azure
+- DBeaver
+- Microsoft Azure
   
 ## Diagrama MER 
 
@@ -57,5 +58,43 @@ Antes de começar o teste das tabelas no SQL online, é necessário criar uma co
 
 3- Após confirmar o cadastro, faça login na plataforma para começar a usar o ambiente de testes SQL.
 
-# 
+# Passo a Passo: Criando as Tabelas no SQL Online
+
+1- Copiar o Código da Tabela conta:
+
+- No repositório Git, vá até a pasta SQL e abra o arquivo .sql. Encontre o código referente à criação da tabela conta e copie-o.
+
+2- Renomear a Tabela Demo para conta:
+
+- Ao entrar no SQL online, você verá uma tabela de exemplo chamada "demo".
+- Renomeie esta tabela clicando no nome dela e altere para "conta".
+
+![sqlrename2](https://github.com/user-attachments/assets/d6684ebb-0ba3-488c-b27d-f9a4781ceeca)
+  
+- Apague todo o conteúdo da tabela "demo" e cole o código copiado da tabela conta do arquivo SQL.]
+  
+3- Executar o Script:
+
+- Após colar o código, clique no botão de execução (geralmente identificado como "Run" ou similar) para criar a tabela conta.
+- Verifique se a tabela foi criada corretamente e se todos os campos foram gerados como esperado.
+  
+4- Criar Novas Tabelas:
+
+- No SQL online, clique no botão “+” (ou equivalente) para adicionar uma nova tabela.
+- Repita o processo: renomeie a nova tabela com o próximo nome que está no script do Git, por exemplo, cartao_credito.
+  
+5- Repetir o Processo para Todas as Tabelas:
+
+- Para cada nova tabela que for criar, vá ao arquivo .sql na pasta SQL do repositório Git e copie o código SQL correspondente.
+- Renomeie a nova tabela no SQL online e cole o código.
+- Execute o script para criar a tabela.
+  
+6 - Verificar Todas as Tabelas:
+
+- Continue repetindo esse processo até criar todas as tabelas (como emprestimo, transferencia, etc.) que estão no script SQL do repositório.
+  
+7- Finalizar e Verificar:
+
+- Após criar todas as tabelas, verifique se todas elas foram criadas corretamente no SQL online, revisando os campos e relacionamentos conforme o script.
+
 
