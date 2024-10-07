@@ -20,6 +20,7 @@ O banco de dados do projeto QBank é projetado para ser robusto e escalável, su
 - SQL online.
 - DBeaver
 - Microsoft Azure
+- VScode
   
 ## Diagrama MER 
 
@@ -86,7 +87,7 @@ Antes de começar o teste das tabelas no SQL online, é necessário criar uma co
   
 5- Repetir o Processo para Todas as Tabelas:
 
-- Para cada nova tabela que for criar, vá ao arquivo .sql na pasta SQL do repositório Git e copie o código SQL correspondente.
+- Para cada nova tabela que for criar, vá ao arquivo .sql na pasta "tabelas" do repositório Git e copie o código SQL correspondente.
 - Renomeie a nova tabela no SQL online e cole o código.
 - Execute o script para criar a tabela.
   
@@ -98,7 +99,7 @@ Antes de começar o teste das tabelas no SQL online, é necessário criar uma co
 
 - Após criar todas as tabelas, verifique se todas elas foram criadas corretamente no SQL online, revisando os campos e relacionamentos conforme o script.
   
-##Conclusão do Projeto QBank##
+## Conclusão do Projeto QBank
 
 O projeto QBank resultou na criação de um banco de dados robusto e escalável para gerenciar informações sobre contas bancárias, transações e usuários. A utilização do Modelo Entidade-Relacionamento (MER) permitiu uma definição clara das entidades e seus relacionamentos, assegurando a integridade dos dados.
 
